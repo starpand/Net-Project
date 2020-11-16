@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Itim', cursive;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/oceando.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: scroll;
+}
+
+.titlebar{
+    width: 45%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+button{
+    color: #ffffff;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor:pointer;
+}
+
+.images{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    align-content: center;
+    margin-left: 700px;
+    margin-right: 200px;
+}
+
+.rightimage{
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    align-content: center;
+    margin-right: 600px;
+    margin-left: 200px;
+}
+
+.titleimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 425px;
+    height: 150px;
+}
+
+.textstuff{
+    margin: 5px;
+    text-align: auto;
+    color: rgb(29, 32, 32);
+    font-family: 'Architects Daughter', cursive;
+    position: relative;
+}
+
+.content{
+    border: double;
+    border-image: inherit;
+    margin: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+    
+.title{
+    font-size: 60px;
+    font-family: 'Architects Daughter', cursive;
+    align-content: center;
+    margin:20px ;
+}
+
+main{
+    font-family: 'Architects Daughter', cursive; ;
+}
+
+.landing{
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+
+.intro{
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text{
+    color: white;
+    font-family: 'Itim', cursive;
+    font-size: 3rem;
+}
+
+.slider{
+    background: rgb(130, 194, 189);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
